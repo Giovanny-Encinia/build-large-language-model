@@ -1,5 +1,5 @@
 import torch
-from torch.utils.data import Dataset, Dataloader
+from torch.utils.data import Dataset
 
 class GPTDatasetV1(Dataset):
     def __init__(self, txt, tokenizer, max_length, stride):
